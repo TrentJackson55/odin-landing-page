@@ -91,9 +91,16 @@ button {
     font-weight: bolder;
     color:#1F2937;
     margin-top: 1em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
 .info {
+    max-width: 200px;
+}
+
+.info-img {
+    border: 5px solid #3882F6;
+    border-radius: 1em;
     max-width: 200px;
 }
