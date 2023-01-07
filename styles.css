@@ -123,3 +123,33 @@ button {
     align-self: flex-end;
     font-size: 24px;
 }
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 75px;
+    justify-content: center;
+    align-content: space-between;
+    margin: 2em 12em 2em 12em;
+    padding: 3em;
+    border-radius: 1em;
+    background-color: #3882F6;
+}
+
+.action-txt {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.cta-sub {
+    display: flex;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    border-color: #F9FAF8;
+}
